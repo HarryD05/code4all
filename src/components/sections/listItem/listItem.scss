@@ -11,8 +11,9 @@
 
     background-color: var(--fg);
     color: black;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
