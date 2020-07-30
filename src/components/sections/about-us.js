@@ -17,9 +17,9 @@ const AboutUs = () => {
       </div>
 
       <div className="text">
-        <em>A project created in the aftermath the GSL Summer Catalyst</em>
+        <em>A project created for phase 2 of the GSL Summer Catalyst 2020</em>
 
-        <p>Being developed by GCSE student Harry D.</p>
+        <p>Being developed by GCSE student, Harry D.</p>
 
         <a href="https://github.com/harryd05" target="_blank" rel="noopener noreferrer"><GithubIcon alt="github icon" /></a> <br />
 
