@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/code4all/static/css/main.0bba99d7.chunk.css",
+    "main.css": "/code4all/static/css/main.4af560d2.chunk.css",
     "main.js": "/code4all/static/js/main.dba49513.chunk.js",
     "main.js.map": "/code4all/static/js/main.dba49513.chunk.js.map",
     "runtime-main.js": "/code4all/static/js/runtime-main.1bf11e15.js",
@@ -8,9 +8,9 @@
     "static/js/2.f707f4c5.chunk.js": "/code4all/static/js/2.f707f4c5.chunk.js",
     "static/js/2.f707f4c5.chunk.js.map": "/code4all/static/js/2.f707f4c5.chunk.js.map",
     "index.html": "/code4all/index.html",
-    "precache-manifest.10c6baf47c6bd00b043c38461c5abcf9.js": "/code4all/precache-manifest.10c6baf47c6bd00b043c38461c5abcf9.js",
+    "precache-manifest.e2f25d34f7a0cc195f63f5434d6904dd.js": "/code4all/precache-manifest.e2f25d34f7a0cc195f63f5434d6904dd.js",
     "service-worker.js": "/code4all/service-worker.js",
-    "static/css/main.0bba99d7.chunk.css.map": "/code4all/static/css/main.0bba99d7.chunk.css.map",
+    "static/css/main.4af560d2.chunk.css.map": "/code4all/static/css/main.4af560d2.chunk.css.map",
     "static/js/2.f707f4c5.chunk.js.LICENSE.txt": "/code4all/static/js/2.f707f4c5.chunk.js.LICENSE.txt",
     "static/media/sections.scss": "/code4all/static/media/tea-laptop.2f5697ac.jpg",
     "static/media/github-icon.192a6620.svg": "/code4all/static/media/github-icon.192a6620.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.1bf11e15.js",
     "static/js/2.f707f4c5.chunk.js",
-    "static/css/main.0bba99d7.chunk.css",
+    "static/css/main.4af560d2.chunk.css",
     "static/js/main.dba49513.chunk.js"
   ]
 }
