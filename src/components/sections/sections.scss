@@ -1,6 +1,7 @@
 .bg-img {
   background-size: cover !important;
   background-attachment: fixed !important;
+  background-position: center center !important;
 
   display: grid;
   place-items: center;
@@ -29,6 +30,7 @@
   .bg-img {
     background: url('./../../assets/images/phone-laptop.jpg') no-repeat center;
     height: 700px;
+    max-height: 100vh;
   }
 }
 
