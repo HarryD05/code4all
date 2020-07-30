@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/code4all/static/css/main.58858b3b.chunk.css",
+    "main.js": "/code4all/static/js/main.1b2d97ab.chunk.js",
+    "main.js.map": "/code4all/static/js/main.1b2d97ab.chunk.js.map",
+    "runtime-main.js": "/code4all/static/js/runtime-main.1bf11e15.js",
+    "runtime-main.js.map": "/code4all/static/js/runtime-main.1bf11e15.js.map",
+    "static/js/2.f707f4c5.chunk.js": "/code4all/static/js/2.f707f4c5.chunk.js",
+    "static/js/2.f707f4c5.chunk.js.map": "/code4all/static/js/2.f707f4c5.chunk.js.map",
+    "index.html": "/code4all/index.html",
+    "precache-manifest.78d99c691830ccf8730a17b027dff4a5.js": "/code4all/precache-manifest.78d99c691830ccf8730a17b027dff4a5.js",
+    "service-worker.js": "/code4all/service-worker.js",
+    "static/css/main.58858b3b.chunk.css.map": "/code4all/static/css/main.58858b3b.chunk.css.map",
+    "static/js/2.f707f4c5.chunk.js.LICENSE.txt": "/code4all/static/js/2.f707f4c5.chunk.js.LICENSE.txt",
+    "static/media/sections.scss": "/code4all/static/media/tea-laptop.2f5697ac.jpg",
+    "static/media/home.1f4ea503.svg": "/code4all/static/media/home.1f4ea503.svg",
+    "static/media/python.93f5ba64.svg": "/code4all/static/media/python.93f5ba64.svg",
+    "static/media/web-dev0.67c98214.svg": "/code4all/static/media/web-dev0.67c98214.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bf11e15.js",
+    "static/js/2.f707f4c5.chunk.js",
+    "static/css/main.58858b3b.chunk.css",
+    "static/js/main.1b2d97ab.chunk.js"
+  ]
+}
