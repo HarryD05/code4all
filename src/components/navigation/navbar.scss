@@ -1,0 +1,25 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 120px;
+  background: #0000005b;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    width: 24px;
+    height: 24px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    
+  }
+}

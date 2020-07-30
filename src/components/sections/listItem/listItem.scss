@@ -1,0 +1,23 @@
+.list-item {
+  display: grid;
+  place-items: center;
+
+  .bubble {
+    width: 16px;
+    height: 16px;
+    padding: 1rem;
+    margin-bottom: 4px;
+    border-radius: 50%;
+
+    background-color: var(--fg);
+    color: black;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  .content {
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+}

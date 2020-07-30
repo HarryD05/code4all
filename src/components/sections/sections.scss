@@ -1,0 +1,111 @@
+.bg-img {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+
+  display: grid;
+  place-items: center;
+
+  h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px #1d44c4;
+  }
+}
+
+.python-bg {
+  .bg-img {
+    background: url('./../../assets/images/black-laptop.jpg') no-repeat center;
+    height: 100vh;
+  }
+}
+
+.webdev-bg {
+  .bg-img {
+    background: url('./../../assets/images/tea-laptop.jpg') no-repeat center;
+    height: 100vh;
+  }
+}
+
+.main {
+  .bg-img {
+    background: url('./../../assets/images/phone-laptop.jpg') no-repeat center;
+    height: 700px;
+  }
+}
+
+.why {
+  .bg-img {
+    background: url('./../../assets/images/dark-laptop.jpg') no-repeat center;
+    height: 300px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.about-us {
+  .bg-img {
+    background: url('./../../assets/images/stats-laptop.jpg') no-repeat center;
+    height: 300px;
+  }
+}
+
+.title {
+  color: white;
+  
+  text-align: center;
+
+  padding: 5%;
+  font-size: x-large;
+}
+
+.text {
+  --padding-width: 5rem;
+  width: calc(100% - calc(2 * var(--padding-width)));
+  padding: 2rem var(--padding-width);
+}
+
+.aims {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.about-us {
+  text-align: center;
+
+  .text {
+    p {
+      padding: 1rem 0;
+    }
+
+    button {
+      border: 0;
+      outline: 0;
+      width: max-content;
+      padding: 1rem;
+      background: #82ffa8;
+      border-radius: 8px;
+      color: black;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
