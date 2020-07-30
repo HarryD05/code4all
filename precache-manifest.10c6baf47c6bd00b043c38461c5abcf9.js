@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c101287a66695bd5a7ee9458911d407",
+    "revision": "9d31b560b883f319217571b1b9eb0e17",
     "url": "/code4all/index.html"
   },
   {
-    "revision": "b78224cbf28afb80c43f",
-    "url": "/code4all/static/css/main.58858b3b.chunk.css"
+    "revision": "8c9cacd23b7bd00b2008",
+    "url": "/code4all/static/css/main.0bba99d7.chunk.css"
   },
   {
     "revision": "fa7d713867fc95ca76be",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code4all/static/js/2.f707f4c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b78224cbf28afb80c43f",
-    "url": "/code4all/static/js/main.1b2d97ab.chunk.js"
+    "revision": "8c9cacd23b7bd00b2008",
+    "url": "/code4all/static/js/main.dba49513.chunk.js"
   },
   {
     "revision": "0331a941f1f6f9a61afe",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "117af26773fcabe3b72ba7dce4be2d35",
     "url": "/code4all/static/media/dark-laptop.117af267.jpg"
+  },
+  {
+    "revision": "192a6620a687a9e7e51c0037973a1547",
+    "url": "/code4all/static/media/github-icon.192a6620.svg"
   },
   {
     "revision": "1f4ea50363cd710b08880e54b7ccc2ed",
