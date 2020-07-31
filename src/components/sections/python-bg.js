@@ -10,7 +10,7 @@ const PythonBG = () => {
       <div className="bg-img">
         <div className="title">
           <h1>Python</h1>
-          <em>(Not start yet...)</em>
+          <em>(incomplete)</em>
         </div>
       </div>
     </div>

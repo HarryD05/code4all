@@ -11,11 +11,17 @@ import { ReactComponent as WebdevLogo } from '../../assets/svgs/web-dev0.svg';
 import './navbar.scss';
 
 const Navbar = () => {
+  const scrollTop = () => {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <nav>
-      <NavLink className="link" to="/home"><HomeIcon className="svg" alt="home" /></NavLink>
-      <NavLink className="link" to="/python"><PythonLogo className="svg" alt="python" /></NavLink>
-      <NavLink className="link" to="/webdev"><WebdevLogo className="svg" alt="web-dev" /></NavLink>
+      <NavLink className="link" to="/python"><PythonLogo onClick={scrollTop} className="svg" alt="python" /></NavLink>
+
+      <NavLink className="link" to="/home"><HomeIcon onClick={scrollTop} className="svg" alt="home" /></NavLink>
+
+      <NavLink className="link" to="/webdev"><WebdevLogo onClick={scrollTop} className="svg" alt="web-dev" /></NavLink>
     </nav>
   )
 }

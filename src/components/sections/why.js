@@ -23,7 +23,7 @@ const Why = () => {
           <ListItem index={3} content={(<p>Improve your <u>problem solving skills</u></p>)} />
           <ListItem index={4} content={(<p>Huge amounts of job opportunities <em>(well paid too!)</em></p>)} />
           <ListItem index={5} content={(<p>Improve your understanding of <b>how our world works</b></p>)} />
-          <ListItem index={6} content={(<p>YOU can <u>improve</u> the world & help for those in need</p>)} />
+          <ListItem index={6} content={(<p><b>You</b> can <u>improve</u> the world & help for those in need</p>)} />
         </div>
       </div>
     </div>
