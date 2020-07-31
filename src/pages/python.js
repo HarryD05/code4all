@@ -48,7 +48,11 @@ const Python = () => {
             <li>Software: <a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">Python IDLE</a></li>
             <ul>
               <li>You will need to download the latest version</li>
-              <li>For each new project, open IDLE & press ctrl + N to create a new file - then save as... with the name of the project & save in a folder on your computerq</li>
+              <li>For each new project</li>
+              <ul>
+                <li>open IDLE & press ctrl + N to create a new file</li>
+                <li>save as... with the name of the project & save in a folder on your computer</li>
+              </ul>
             </ul>
           </ul>
         </div>
