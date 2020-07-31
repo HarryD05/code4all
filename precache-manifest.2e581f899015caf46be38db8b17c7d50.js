@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c5f1d51f44d655752f81f1491a31e75",
+    "revision": "738568add546223b1bb168287e6cafea",
     "url": "/code4all/index.html"
   },
   {
-    "revision": "b03faa67a3d50bfb76ea",
-    "url": "/code4all/static/css/main.fa2d6057.chunk.css"
+    "revision": "a9b5572892877142e7a3",
+    "url": "/code4all/static/css/main.134f3bb6.chunk.css"
   },
   {
     "revision": "fa7d713867fc95ca76be",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code4all/static/js/2.f707f4c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b03faa67a3d50bfb76ea",
-    "url": "/code4all/static/js/main.3e5846de.chunk.js"
+    "revision": "a9b5572892877142e7a3",
+    "url": "/code4all/static/js/main.a5a6fa75.chunk.js"
   },
   {
     "revision": "0331a941f1f6f9a61afe",
@@ -44,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/code4all/static/media/phone-laptop.5f49ffe6.jpg"
   },
   {
+    "revision": "a04b9168adf25b58c03b8cf45f74ec23",
+    "url": "/code4all/static/media/python-logo.a04b9168.svg"
+  },
+  {
     "revision": "93f5ba64d5e2c93a873360e1dd80c111",
     "url": "/code4all/static/media/python.93f5ba64.svg"
+  },
+  {
+    "revision": "befa53dc6f9bbeae7a138b97d1d8c16f",
+    "url": "/code4all/static/media/requirements.befa53dc.svg"
   },
   {
     "revision": "b1df5a8ea82250fd39468fdee350c541",
