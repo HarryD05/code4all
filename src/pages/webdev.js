@@ -18,7 +18,7 @@ const Webdev = () => {
       <div className="divided-box-left">
         <WebdevLogo alt="html css js logo" />
 
-        <div className="description">
+        <div className="requirements">
           <h1>Description</h1>
           <ul>
             <li>There are 3 languages involved in web development: </li>
