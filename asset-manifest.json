@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/code4all/static/css/main.134f3bb6.chunk.css",
-    "main.js": "/code4all/static/js/main.ac999285.chunk.js",
-    "main.js.map": "/code4all/static/js/main.ac999285.chunk.js.map",
+    "main.css": "/code4all/static/css/main.87463fd6.chunk.css",
+    "main.js": "/code4all/static/js/main.16cff17d.chunk.js",
+    "main.js.map": "/code4all/static/js/main.16cff17d.chunk.js.map",
     "runtime-main.js": "/code4all/static/js/runtime-main.1bf11e15.js",
     "runtime-main.js.map": "/code4all/static/js/runtime-main.1bf11e15.js.map",
     "static/js/2.f707f4c5.chunk.js": "/code4all/static/js/2.f707f4c5.chunk.js",
     "static/js/2.f707f4c5.chunk.js.map": "/code4all/static/js/2.f707f4c5.chunk.js.map",
     "index.html": "/code4all/index.html",
-    "precache-manifest.00696f34757f80da0ba26ed1d3cc4749.js": "/code4all/precache-manifest.00696f34757f80da0ba26ed1d3cc4749.js",
+    "precache-manifest.7937ef4da65b52ec6f1d75aae8ae8a09.js": "/code4all/precache-manifest.7937ef4da65b52ec6f1d75aae8ae8a09.js",
     "service-worker.js": "/code4all/service-worker.js",
-    "static/css/main.134f3bb6.chunk.css.map": "/code4all/static/css/main.134f3bb6.chunk.css.map",
+    "static/css/main.87463fd6.chunk.css.map": "/code4all/static/css/main.87463fd6.chunk.css.map",
     "static/js/2.f707f4c5.chunk.js.LICENSE.txt": "/code4all/static/js/2.f707f4c5.chunk.js.LICENSE.txt",
     "static/media/sections.scss": "/code4all/static/media/tea-laptop.2f5697ac.jpg",
     "static/media/github-icon.192a6620.svg": "/code4all/static/media/github-icon.192a6620.svg",
@@ -18,12 +18,13 @@
     "static/media/python-logo.a04b9168.svg": "/code4all/static/media/python-logo.a04b9168.svg",
     "static/media/python.93f5ba64.svg": "/code4all/static/media/python.93f5ba64.svg",
     "static/media/requirements.befa53dc.svg": "/code4all/static/media/requirements.befa53dc.svg",
-    "static/media/web-dev0.67c98214.svg": "/code4all/static/media/web-dev0.67c98214.svg"
+    "static/media/web-dev.67c98214.svg": "/code4all/static/media/web-dev.67c98214.svg",
+    "static/media/webdev-logo.74d331e2.svg": "/code4all/static/media/webdev-logo.74d331e2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1bf11e15.js",
     "static/js/2.f707f4c5.chunk.js",
-    "static/css/main.134f3bb6.chunk.css",
-    "static/js/main.ac999285.chunk.js"
+    "static/css/main.87463fd6.chunk.css",
+    "static/js/main.16cff17d.chunk.js"
   ]
 }
