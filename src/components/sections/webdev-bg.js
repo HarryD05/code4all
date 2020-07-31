@@ -10,7 +10,7 @@ const WebdevBG = () => {
       <div className="bg-img">
         <div className="title">
           <h1>Web development</h1>
-          <em>(Not start yet...)</em>
+          <em>(incomplete)</em>
         </div>
       </div>
     </div>

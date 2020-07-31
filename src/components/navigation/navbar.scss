@@ -11,15 +11,39 @@ nav {
   justify-content: space-around;
   align-items: center;
 
-  a {
+  a.link {
     width: 24px;
     height: 24px;
 
     svg {
       width: 24px;
       height: 24px;
+      
+      g {
+        path {
+          fill: white;
+        }
+      }
+
+      &:hover {
+        g {
+          path {
+            fill: var(--fg);
+          }
+        }
+      }
     }
 
     
+  }
+
+  .active {
+    svg {
+      g {
+        path {
+          fill: #00aeff !important;
+        }
+      }
+    }
   }
 }

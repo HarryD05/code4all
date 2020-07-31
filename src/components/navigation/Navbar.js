@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 //SVGs
 import { ReactComponent as HomeIcon } from '../../assets/svgs/home.svg';
 import { ReactComponent as PythonLogo } from '../../assets/svgs/python.svg';
-import { ReactComponent as WebdevLogo } from '../../assets/svgs/web-dev0.svg';
+import { ReactComponent as WebdevLogo } from '../../assets/svgs/web-dev.svg';
 
 //Styling
 import './navbar.scss';
