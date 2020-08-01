@@ -1,49 +1,102 @@
+:root {
+  --nav-major-height: 45px;
+  --nav-bg: #000000a2;
+}
+
 nav {
-  position: fixed;
-  top: 0;
-  left: calc(50% - 60px);
-  width: 120px;
-  height: 30px;
-  background: #000000a2;
+  .major {
+    transition: 0.8s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2rem);
+    height: var(--nav-major-height);
+    background: var(--nav-bg);
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem;
 
-  a.link {
-    width: 24px;
-    height: 24px;
+    .title {
+      color: var(--fg);
+      text-align: left;
+      margin: 0;
+      padding: 0;
 
-    svg {
+      h1:hover {
+        cursor: pointer;
+      }
+    }
+
+    .links {
+      margin-left: auto;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .minor {
+    transition: 0.8s ease-in-out;
+    position: fixed;
+    top: var(--nav-major-height);
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 30px;
+    background: var(--nav-bg);;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    a.link {
       width: 24px;
       height: 24px;
-      
-      g {
-        path {
-          fill: white;
+
+      svg {
+        width: 24px;
+        height: 24px;
+        
+        g {
+          path {
+            fill: white;
+          }
+        }
+
+        &:hover {
+          g {
+            path {
+              fill: var(--fg);
+            }
+          }
         }
       }
 
-      &:hover {
+      
+    }
+
+    .active {
+      svg {
         g {
           path {
-            fill: var(--fg);
+            fill: #00aeff !important;
           }
         }
       }
     }
-
-    
   }
 
-  .active {
-    svg {
-      g {
-        path {
-          fill: #00aeff !important;
-        }
-      }
+  &.closed {
+    .major {
+      top: calc(var(--nav-major-height) * -1);
+    }
+
+    .minor {
+      top: 0;
     }
   }
 }
