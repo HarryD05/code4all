@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/code4all/static/css/main.248fb52b.chunk.css",
-    "main.js": "/code4all/static/js/main.f09c221d.chunk.js",
-    "main.js.map": "/code4all/static/js/main.f09c221d.chunk.js.map",
+    "main.css": "/code4all/static/css/main.9e854162.chunk.css",
+    "main.js": "/code4all/static/js/main.13582022.chunk.js",
+    "main.js.map": "/code4all/static/js/main.13582022.chunk.js.map",
     "runtime-main.js": "/code4all/static/js/runtime-main.1bf11e15.js",
     "runtime-main.js.map": "/code4all/static/js/runtime-main.1bf11e15.js.map",
     "static/js/2.14438f2d.chunk.js": "/code4all/static/js/2.14438f2d.chunk.js",
     "static/js/2.14438f2d.chunk.js.map": "/code4all/static/js/2.14438f2d.chunk.js.map",
     "index.html": "/code4all/index.html",
-    "precache-manifest.e0f86ceef90af89a780495980a78277b.js": "/code4all/precache-manifest.e0f86ceef90af89a780495980a78277b.js",
+    "precache-manifest.4f021d170831472250002c45d7ff93bc.js": "/code4all/precache-manifest.4f021d170831472250002c45d7ff93bc.js",
     "service-worker.js": "/code4all/service-worker.js",
-    "static/css/main.248fb52b.chunk.css.map": "/code4all/static/css/main.248fb52b.chunk.css.map",
+    "static/css/main.9e854162.chunk.css.map": "/code4all/static/css/main.9e854162.chunk.css.map",
     "static/js/2.14438f2d.chunk.js.LICENSE.txt": "/code4all/static/js/2.14438f2d.chunk.js.LICENSE.txt",
     "static/media/sections.scss": "/code4all/static/media/tea-laptop.2f5697ac.jpg",
     "static/media/github-icon.192a6620.svg": "/code4all/static/media/github-icon.192a6620.svg",
     "static/media/home.1f4ea503.svg": "/code4all/static/media/home.1f4ea503.svg",
-    "static/media/python-logo.a04b9168.svg": "/code4all/static/media/python-logo.a04b9168.svg",
+    "static/media/python-file.bea2ce05.svg": "/code4all/static/media/python-file.bea2ce05.svg",
     "static/media/python.93f5ba64.svg": "/code4all/static/media/python.93f5ba64.svg",
     "static/media/requirements.befa53dc.svg": "/code4all/static/media/requirements.befa53dc.svg",
+    "static/media/tutorial.7dc26c0d.svg": "/code4all/static/media/tutorial.7dc26c0d.svg",
     "static/media/web-dev.67c98214.svg": "/code4all/static/media/web-dev.67c98214.svg",
     "static/media/webdev-logo.74d331e2.svg": "/code4all/static/media/webdev-logo.74d331e2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1bf11e15.js",
     "static/js/2.14438f2d.chunk.js",
-    "static/css/main.248fb52b.chunk.css",
-    "static/js/main.f09c221d.chunk.js"
+    "static/css/main.9e854162.chunk.css",
+    "static/js/main.13582022.chunk.js"
   ]
 }
