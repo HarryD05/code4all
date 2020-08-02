@@ -38,6 +38,14 @@
       }
     }
 
+    .overview {
+      @extend .description;
+
+      ol, ul {
+        list-style-position: inside;
+      }
+    }
+
     @media (max-width: 768px) {
       grid-template-columns: 1fr !important;
 

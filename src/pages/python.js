@@ -11,8 +11,9 @@ import { LocationContext } from './../context/LocationContext';
 import './pages.scss';
 
 //Assets
-import { ReactComponent as PythonLogo } from './../assets/svgs/python-logo.svg';
+import { ReactComponent as PythonLogo } from './../assets/svgs/python-file.svg';
 import { ReactComponent as Requirements } from './../assets/svgs/requirements.svg';
+import { ReactComponent as Tutorial } from './../assets/svgs/tutorial.svg';
 
 const Python = () => {
   const locContext = useContext(LocationContext);
@@ -22,7 +23,7 @@ const Python = () => {
     <div className="python">
       <PythonBG />
 
-      <div id="intro">
+      <div id="desc">
         <div className="divided-box-left">
           <PythonLogo alt="python logo" />
 
@@ -37,9 +38,11 @@ const Python = () => {
             </ul>
           </div>
         </div>
+      </div>
 
-        <hr />
+      <hr />
 
+      <div id="requirements">
         <div className="divided-box-right">
           <div className="requirements">
             <h1>Requirements</h1>
@@ -66,7 +69,35 @@ const Python = () => {
 
           <Requirements alt="clipboard with pen" />
         </div>
+      </div>
 
+      <hr />
+
+      <div id="tutorials">
+        <div className="divided-box-left">
+          <Tutorial alt="online learning" />
+
+          <div className="overview">
+            <h1>Overview</h1>
+            <p>This site currently provides 3 tutorials</p>
+            <ol>
+              <li>Python basics</li>
+              <ul>
+                <li>Including variables, inputs, outputs, loops, arrays</li>
+              </ul>
+
+              <li>Python basics plus</li>
+              <ul>
+                <li>Including dictionaries, functions & classes</li>
+              </ul>
+
+              <li>TKinter</li>
+              <ul>
+                <li>Used to make GUIs</li>
+              </ul>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
   );

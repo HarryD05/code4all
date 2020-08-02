@@ -13,6 +13,7 @@ import './pages.scss';
 //Assets
 import { ReactComponent as WebdevLogo } from './../assets/svgs/webdev-logo.svg';
 import { ReactComponent as Requirements } from './../assets/svgs/requirements.svg';
+import { ReactComponent as Tutorial } from './../assets/svgs/tutorial.svg';
 
 const Webdev = () => {
   const locContext = useContext(LocationContext);
@@ -22,7 +23,7 @@ const Webdev = () => {
     <div className="webdev">
       <WebdevBG />
 
-      <div id="intro">
+      <div id="desc">
         <div className="divided-box-left">
           <WebdevLogo alt="html css/js/logo" />
 
@@ -51,12 +52,7 @@ const Webdev = () => {
 
               <br />
 
-              <li>There are endless strands of web development, but this website will feature: </li>
-              <ol>
-                <li>Basic html, css, js</li>
-                <li>P5.js - graphics</li>
-                <li>Full stack web development with the MERN stack</li>
-              </ol>
+              <li>Web development is a very popular form of programming, the results of code are easily accessible for anyone with the internet & no downloads are required</li>
             </ul>
           </div>
         </div>
@@ -64,41 +60,72 @@ const Webdev = () => {
 
       <hr />
 
-      <div className="divided-box-right">
-        <div className="requirements">
-          <h1>Requirements</h1>
-          <p>There are 3 technologies used in this tutorial (all free)</p>
-          <ul>
-            <li>Online (general) IDE: <a href="https://repl.it" target="_blank" rel="noopener noreferrer">repl.it</a></li>
+      <div id="requirements">
+        <div className="divided-box-right">
+          <div className="requirements">
+            <h1>Requirements</h1>
+            <p>There are 3 technologies used in this tutorial (all free)</p>
             <ul>
-              <li>You will need to create account</li>
-              <li>For each new project, you will create a new repl & select html/css/js as the language</li>
-              <li>This is best used for static websites (use basic html, css & js) - so will only be used for the first tutorial</li>
+              <li>Online (general) IDE: <a href="https://repl.it" target="_blank" rel="noopener noreferrer">repl.it</a></li>
+              <ul>
+                <li>You will need to create account</li>
+                <li>For each new project, you will create a new repl & select html/css/js as the language</li>
+                <li>This is best used for static websites (use basic html, css & js) - so will only be used for the first tutorial</li>
+              </ul>
+
+              <br />
+
+              <li>Online (specialised) IDE: <a href="https://editor.p5js.org/" target="_blank" rel="noopener noreferrer">P5js web editor</a></li>
+              <ul>
+                <li>You will need to create account</li>
+                <li>This is used for creating graphics/games/simulations using JavaScript, at the end I will show how to include these in static websites (from tutorial 1)</li>
+              </ul>
+
+              <br />
+
+              <li>Software IDE: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a></li>
+              <ul>
+                <li>You will need to download the IDE</li>
+                <li>This is will be used for the final tutorial (using react for DOM & connecting websites to a database for dynamic content)</li>
+              </ul>
+
             </ul>
 
-            <br />
+          </div>
 
-            <li>Online (specialised) IDE: <a href="https://editor.p5js.org/" target="_blank" rel="noopener noreferrer">P5js web editor</a></li>
-            <ul>
-              <li>You will need to create account</li>
-              <li>This is used for creating graphics/games/simulations using JavaScript, at the end I will show how to include these in static websites (from tutorial 1)</li>
-            </ul>
-
-            <br />
-
-            <li>Software IDE: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a></li>
-            <ul>
-              <li>You will need to download the IDE</li>
-              <li>This is will be used for the final tutorial (using react for DOM & connecting websites to a database for dynamic content)</li>
-            </ul>
-
-          </ul>
-
+          <Requirements alt="clipboard with pen" />
         </div>
-
-        <Requirements alt="clipboard with pen" />
       </div>
-    </div >
+
+      <hr />
+
+      <div id="tutorials">
+        <div className="divided-box-left">
+          <Tutorial alt="online learning" />
+
+          <div className="overview">
+            <h1>Overview</h1>
+            <p>This site currently provides 3 tutorials</p>
+            <ol>
+              <li>Static websites</li>
+              <ul>
+                <li>Including basic html, css & js</li>
+              </ul>
+
+              <li>Graphics</li>
+              <ul>
+                <li>Use of the P5.js library</li>
+              </ul>
+
+              <li>Dynamic, full stack (MERN) websites</li>
+              <ul>
+                <li>Including react.js & then adding a backend with express & mongoose</li>
+              </ul>
+            </ol>
+          </div>
+        </div >
+      </div>
+    </div>
   );
 }
 

@@ -24,7 +24,9 @@ const Navbar = () => {
   const renderPython = () => {
     return (
       <div className="links">
-        <HashLink id="intro" name="Intro" />
+        <HashLink id="desc" name="Desc." />
+        <HashLink id="requirements" name="Req." />
+        <HashLink id="tutorials" name="Tutorials" />
       </div>
     )
   }
@@ -32,7 +34,9 @@ const Navbar = () => {
   const renderWebdev = () => {
     return (
       <div className="links">
-        <HashLink id="intro" name="Intro" />
+        <HashLink id="desc" name="Desc." />
+        <HashLink id="requirements" name="Req." />
+        <HashLink id="tutorials" name="Tutorials" />
       </div>
     )
   }
