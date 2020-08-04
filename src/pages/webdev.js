@@ -33,9 +33,9 @@ const Webdev = () => {
             <ul>
               <li>There are 3 languages involved in web development: </li>
               <ul>
-                <li>HTML - the bones/structure of the website</li>
-                <li>CSS - the website's styling</li>
-                <li>JavaScript - the programming language of web development which can...</li>
+                <li><b>HTML</b> - the bones/structure of the website</li>
+                <li><b>CSS</b> - the website's styling</li>
+                <li><b>JavaScript</b> - the programming language of web development which can...</li>
                 <ul>
                   <li>update, create & delete html & css (front-end)</li>
                   <li>can calculate, manipulate & validate data (back-end)</li>
