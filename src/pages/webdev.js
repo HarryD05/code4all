@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 
 //Components
 import WebdevBG from './../components/sections/webdev-bg';
+import TutorialBG from './../components/sections/tutorials-bg';
 
 //Context
 import { LocationContext } from './../context/LocationContext';
@@ -97,9 +98,8 @@ const Webdev = () => {
         </div>
       </div>
 
-      <hr />
-
       <div id="tutorials">
+        <TutorialBG />
         <div className="divided-box-left">
           <Tutorial alt="online learning" />
 
@@ -107,20 +107,11 @@ const Webdev = () => {
             <h1>Overview</h1>
             <p>This site currently provides 3 tutorials</p>
             <ol>
-              <li>Static websites</li>
-              <ul>
-                <li>Including basic html, css & js</li>
-              </ul>
+              <li><b>Static websites</b> - Including basic html, css & js</li>
 
-              <li>Graphics</li>
-              <ul>
-                <li>Use of the P5.js library</li>
-              </ul>
+              <li><b>Graphics</b> - Use of the P5.js library</li>
 
-              <li>Dynamic, full stack (MERN) websites</li>
-              <ul>
-                <li>Including react.js & then adding a backend with express & mongoose</li>
-              </ul>
+              <li><b>Full-stack development basics</b> - Including react.js (using hooks!) & then adding a backend with express & mongoose</li>
             </ol>
           </div>
         </div >

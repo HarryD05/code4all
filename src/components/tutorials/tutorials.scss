@@ -1,0 +1,18 @@
+.tutorial {
+  padding: 0 1rem 1rem 1rem;
+
+  h1 {
+    border-bottom: 4px solid black;
+    width: max-content;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    margin-left: 1rem;
+    list-style: disc; 
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

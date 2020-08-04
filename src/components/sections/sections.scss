@@ -19,6 +19,13 @@
   }
 }
 
+.tutorials-bg {
+  .bg-img {
+    background: url('./../../assets/images/marble-pad.jpg') no-repeat center;
+    height: 300px;
+  }
+}
+
 .webdev-bg {
   .bg-img {
     background: url('./../../assets/images/tea-laptop.jpg') no-repeat center;
@@ -38,6 +45,8 @@
     background: url('./../../assets/images/dark-laptop.jpg') no-repeat center;
     height: 300px;
   }
+
+  background: #fffdeb;
 
   .list {
     display: grid;
@@ -78,6 +87,7 @@
 
 .aims {
   text-align: center;
+  background: #e8fffb;
 
   h1 {
     margin-bottom: 1rem;
@@ -107,6 +117,7 @@
 
 .about-us {
   text-align: center;
+  background: #eeeeee;
 
   .text {
     p {

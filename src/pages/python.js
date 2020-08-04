@@ -3,6 +3,12 @@ import React, { useContext } from 'react';
 
 //Components
 import PythonBG from './../components/sections/python-bg';
+import TutorialBG from './../components/sections/tutorials-bg';
+
+//Tutorials
+import PythonBasics1 from './../components/tutorials/python-basics1';
+import PythonBasics2 from './../components/tutorials/python-basics2';
+import TKinter from './../components/tutorials/tkinter';
 
 //Context
 import { LocationContext } from './../context/LocationContext';
@@ -71,9 +77,9 @@ const Python = () => {
         </div>
       </div>
 
-      <hr />
-
       <div id="tutorials">
+        <TutorialBG />
+
         <div className="divided-box-left">
           <Tutorial alt="online learning" />
 
@@ -81,23 +87,20 @@ const Python = () => {
             <h1>Overview</h1>
             <p>This site currently provides 3 tutorials</p>
             <ol>
-              <li>Python basics</li>
-              <ul>
-                <li>Including variables, inputs, outputs, loops, arrays</li>
-              </ul>
+              <li><b>Python basics</b> - Including variables, inputs, outputs, loops, arrays</li>
 
-              <li>Python basics plus</li>
-              <ul>
-                <li>Including dictionaries, functions & classes</li>
-              </ul>
+              <li><b>Python basics plus</b> - Including dictionaries, functions & classes</li>
 
-              <li>TKinter</li>
-              <ul>
-                <li>Used to make GUIs</li>
-              </ul>
+              <li><b>TKinter</b> - Used to make GUIs</li>
             </ol>
           </div>
         </div>
+
+        <hr />
+
+        <PythonBasics1 />
+        <PythonBasics2 />
+        <TKinter />
       </div>
     </div>
   );

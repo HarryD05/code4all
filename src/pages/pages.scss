@@ -39,7 +39,7 @@
     }
 
     .overview {
-      @extend .description;
+      @extend .requirements;
 
       ol, ul {
         list-style-position: inside;
