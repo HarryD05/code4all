@@ -103,7 +103,7 @@ const PythonBasics1 = props => {
         </pre>
 
         <pre>
-          <code className="error">
+          <code className="error" contenteditable spellcheck="false">
             <b style={{ color: '#000' }}>OUTPUT (an error)</b><br />
             Traceback (most recent call last):<br />
             File "C:\Users\Harry\OneDrive\Coding_Stuff\Python\PythonBasicTutorial\casting.py", line 3, in &lt;module&gt;<br />

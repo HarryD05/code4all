@@ -20,6 +20,7 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
   width: 100%;
+  
 }
 
 b, em, u, div {
@@ -57,3 +58,6 @@ hr {
   background: #555;
 }
 
+main {
+  word-wrap: break-word;
+}

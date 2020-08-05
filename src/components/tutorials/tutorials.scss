@@ -21,17 +21,19 @@
 
 pre {
   background-color: #fafafa;
-  width: max-content;
-  max-width: calc(100% - 2rem);
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid black;
-  word-wrap: break-all;
   margin-bottom: 1rem;
+  width: max-content;
+  max-width: calc(100% - 2rem);
+  word-wrap: break-all;
+  white-space: normal;
 
-  code {
+  pre {
     width: 100%;
     word-wrap: break-all;
+    white-space: normal;
   }
 }
 
