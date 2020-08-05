@@ -41,7 +41,7 @@ const PythonBasics1 = props => {
             <span className="io">print</span>(5)<br />
             <span className="io">print</span>(<span className="bool">False</span>)<br />
             <span className="io">print</span>(<span className="string">"James said, 'Hello'"</span>)<br />
-            <span className="comment">#you can print any data type as shown above</span>
+            <span className="comment">#You can print any data type as shown above</span>
           </code>
         </pre>
 
@@ -106,7 +106,7 @@ const PythonBasics1 = props => {
           <code className="error" contenteditable spellcheck="false">
             <b style={{ color: '#000' }}>OUTPUT (an error)</b><br />
             Traceback (most recent call last):<br />
-            File "...\PythonTutorial1\casting.py", line 3, in &lt;module&gt;<br />
+            File "...\casting.py", line 3, in &lt;module&gt;<br />
             3 print(apple + bananas)<br />
             TypeError: unsupported operand type(s) for +: 'int' and 'str'<br />
           </code>
@@ -121,7 +121,7 @@ const PythonBasics1 = props => {
             bananas = <span className="string">"6"</span><br />
             total = apples + int(bananas)<br />
             <span className="io">print</span>(total)<br />
-            <span className="comment">#you can do the same with 'float()' and 'str()'</span>
+            <span className="comment">#You can do the same with 'float()' and 'str()'</span>
           </code>
         </pre>
 
