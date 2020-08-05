@@ -106,7 +106,7 @@ const PythonBasics1 = props => {
           <code className="error" contenteditable spellcheck="false">
             <b style={{ color: '#000' }}>OUTPUT (an error)</b><br />
             Traceback (most recent call last):<br />
-            File "C:\Users\Harry\PythonBasicTutorial\casting.py", line 3, in &lt;module&gt;<br />
+            File "...\PythonTutorial1\casting.py", line 3, in &lt;module&gt;<br />
             3 print(apple + bananas)<br />
             TypeError: unsupported operand type(s) for +: 'int' and 'str'<br />
           </code>
