@@ -9,10 +9,48 @@
 
   ul {
     margin-left: 1rem;
-    list-style: disc; 
+    margin-bottom: 1rem;
+    list-style: disc;
+    list-style-position: inside; 
 
     li {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
     }
   }
+}
+
+pre {
+  background-color: #fafafa;
+  width: max-content;
+  max-width: calc(100% - 2rem);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid black;
+  word-wrap: break-all;
+  margin-bottom: 1rem;
+
+  code {
+    width: 100%;
+    word-wrap: break-all;
+  }
+}
+
+.io {
+  color: #6e10a5;
+}
+
+.comment, .error {
+  color: #ff4242;
+}
+
+.string {
+  color: #1bb10d;
+}
+
+.output {
+  color: #1b1bf7;
+}
+
+.bool {
+  color: #eb820a;
 }

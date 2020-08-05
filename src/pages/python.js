@@ -93,6 +93,7 @@ const Python = () => {
 
               <li><b>TKinter</b> - Used to make GUIs</li>
             </ol>
+            <p>I suggest that you write any code example in your IDE of choice so you can see that you get the correct output</p>
           </div>
         </div>
 
