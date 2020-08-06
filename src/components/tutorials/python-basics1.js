@@ -76,8 +76,8 @@ const PythonBasics1 = props => {
             fruit = apples + bananas<br />
             <span className="io">print</span>(fruit)<br />
             <br />
-            first_name = <span className="string">"John"</span><br />
-            surname = <span className="string">'Smith'</span><br />
+            first_name = <span className="string">"Destiny"</span><br />
+            surname = <span className="string">'Davidson'</span><br />
             <span className="comment">#You can use " or ' to wrap a string</span><br />
             name = first_name + surname<br />
             <span className="io">print</span>(name)
@@ -88,7 +88,7 @@ const PythonBasics1 = props => {
           <code className="output">
             <b style={{ color: '#000' }}>OUTPUT</b><br />
             14<br />
-            John Smith<br />
+            Destiny Davidson<br />
           </code>
         </pre>
         <li>As shown above, you can add 2 variable together, to do this they must be the same data type e.g. a string or number (int/float)</li>
@@ -146,23 +146,23 @@ const PythonBasics1 = props => {
           <code>
             <b>INPUT</b><br />
             apples = 4<br />
-            <span className="io">print</span>(<span className="string">'He has '</span> + <span className="io">str</span>(apples) + <span className="string">' apples'</span>)<br />
-            <span className="io">print</span>(<span className="string">'He has'</span>, <span className="io">str</span>(apples), <span className="string">'apples'</span>)<br />
-            <span className="io">print</span>(<span className="string">'He has {'{}'} apples'</span>.<span className="io">format</span>(apples))<br /><br />
+            <span className="io">print</span>(<span className="string">'They has '</span> + <span className="io">str</span>(apples) + <span className="string">' apples'</span>)<br />
+            <span className="io">print</span>(<span className="string">'They has'</span>, <span className="io">str</span>(apples), <span className="string">'apples'</span>)<br />
+            <span className="io">print</span>(<span className="string">'They has {'{}'} apples'</span>.<span className="io">format</span>(apples))<br /><br />
 
             <span className="comment">#You can also include multiple variables - one example below</span><br />
             bananas = 8<br />
-            <span className="io">print</span>(<span className="string">'He has {'{}'} apples and {'{}'} bananas'</span>.<span className="io">format</span>(apples, bananas))<br /><br />
+            <span className="io">print</span>(<span className="string">'They has {'{}'} apples and {'{}'} bananas'</span>.<span className="io">format</span>(apples, bananas))<br /><br />
           </code>
         </pre>
 
         <pre>
           <code className="output">
             <b style={{ color: '#000' }}>OUTPUT</b><br />
-            He has 4 apples<br />
-            He has 4 apples<br />
-            He has 4 apples<br />
-            He has 4 apples and 8 bananas
+            They has 4 apples<br />
+            They has 4 apples<br />
+            They has 4 apples<br />
+            They has 4 apples and 8 bananas
           </code>
         </pre>
       </ul>
@@ -173,7 +173,8 @@ const PythonBasics1 = props => {
         <pre>
           <code>
             <b>INPUT</b><br />
-            name = <span className="io">input</span>(<span className="string">'What is your name? '</span>)<br />
+            name = <span className="io">str</span>(<span className="io">input</span>(<span className="string">'What is your name? '</span>))<br />
+            <span className="comment">#I always cast the input to the data type I require e.g if you want a number do int(input())</span><br />
             <span className="io">print</span>(<span className="string">'Hi, {'{}'}'</span>.<span className="io">format</span>(name))
           </code>
         </pre>
