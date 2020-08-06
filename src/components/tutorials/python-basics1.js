@@ -37,7 +37,7 @@ const PythonBasics1 = props => {
         <pre>
           <code>
             <b>INPUT</b><br />
-            <span className="io">print</span>(<span className="string">"Hello World"</span>)<br />
+            <span className="io">print</span>(<span className="string">'Hello World'</span>)<br />
             <span className="io">print</span>(5)<br />
             <span className="io">print</span>(<span className="bool">False</span>)<br />
             <span className="io">print</span>(<span className="string">"James said, 'Hello'"</span>)<br />
@@ -63,7 +63,7 @@ const PythonBasics1 = props => {
         <ul>
           <li><b>integer</b> e.g. -1, 0, 32</li>
           <li><b>real/float</b> e.g. 0.3, 3.45, -20.2</li>
-          <li><b>string</b> e.g. <span className="string">"hello"</span>, <span className="string">"2ascd32-!"</span></li>
+          <li><b>string</b> e.g. <span className="string">"hello"</span>, <span className="string">'2ascd32-!'</span></li>
           <li><b>boolean</b> e.g. <span className="bool">True</span> or <span className="bool">False</span></li>
         </ul>
         <li>In python you don't have to specify the data type of the variable it is set automatically (called dynamic typing)</li>
@@ -98,7 +98,7 @@ const PythonBasics1 = props => {
             <b>INPUT</b><br />
             apples = 4<br />
             bananas = <span className="string">"6"</span><br />
-            <span className="io">print</span>(total)<br />
+            <span className="io">print</span>(apples + bananas)<br />
           </code>
         </pre>
 
@@ -119,23 +119,76 @@ const PythonBasics1 = props => {
             <b>INPUT</b><br />
             apples = 4<br />
             bananas = <span className="string">"6"</span><br />
-            total = apples + int(bananas)<br />
-            <span className="io">print</span>(total)<br />
-            <span className="comment">#You can do the same with 'float()' and 'str()'</span>
+            total1 = apples + <span className="io">int</span>(bananas)<br />
+            <span className="io">print</span>(total1)<br /><br />
+
+            apples = 4<br />
+            bananas = <span className="string">"6"</span><br />
+            total2 = <span className="io">str</span>(apples) + bananas<br />
+            <span className="io">print</span>(total2)<br /><br />
+            <span className="comment">#You can do the same with 'float()'</span>
           </code>
         </pre>
 
         <pre>
           <code className="output">
             <b style={{ color: '#000' }}>OUTPUT</b><br />
-            10
+            10<br />
+            46
           </code>
         </pre>
       </ul>
 
+      <h2>Print formatting</h2>
+      <ul>
+        <li>When you output data to the console you may want to use variables & set strings - there are many ways of doing this as shown below</li>
+        <pre>
+          <code>
+            <b>INPUT</b><br />
+            apples = 4<br />
+            <span className="io">print</span>(<span className="string">'He has '</span> + <span className="io">str</span>(apples) + <span className="string">' apples'</span>)<br />
+            <span className="io">print</span>(<span className="string">'He has'</span>, <span className="io">str</span>(apples), <span className="string">'apples'</span>)<br />
+            <span className="io">print</span>(<span className="string">'He has {'{}'} apples'</span>.<span className="io">format</span>(apples))<br /><br />
+
+            <span className="comment">#You can also include multiple variables - one example below</span><br />
+            bananas = 8<br />
+            <span className="io">print</span>(<span className="string">'He has {'{}'} apples and {'{}'} bananas'</span>.<span className="io">format</span>(apples, bananas))<br /><br />
+          </code>
+        </pre>
+
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>OUTPUT</b><br />
+            He has 4 apples<br />
+            He has 4 apples<br />
+            He has 4 apples<br />
+            He has 4 apples and 8 bananas
+          </code>
+        </pre>
+      </ul>
 
       <h2>Input statements</h2>
-      <h2>String formatting</h2>
+      <ul>
+        <li>In a majority of programs you will require input from the user whether it be a name, email, password, number etc.</li>
+        <pre>
+          <code>
+            <b>INPUT</b><br />
+            name = <span className="io">input</span>(<span className="string">'What is your name? '</span>)<br />
+            <span className="io">print</span>(<span className="string">'Hi, {'{}'}'</span>.<span className="io">format</span>(name))
+          </code>
+        </pre>
+
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>OUTPUT</b> <span style={{ color: '#000' }}>(User input is in black)</span><br />
+            What is your name? <span style={{ color: '#000' }}>Harry</span><br />
+            Hi, Harry
+          </code>
+        </pre>
+        <li>The string you put in the brackets of the input statement, is called the prompt & is what is output to the user before they can input their response</li>
+        <li>Whatever the user inputs is stored in the variable that you put equal to the input (e.g. name in the example above)</li>
+      </ul>
+
       <h2>If-else statements</h2>
       <h2>Arrays/lists</h2>
       <h2>For & while loops</h2>

@@ -9,6 +9,7 @@ const PythonBasics2 = props => {
     <div className="tutorial">
       <h1>Python Basics Plus</h1>
       <ul>
+        <li>String formatting</li>
         <li>Random & time libraries</li>
         <li>Dictionaries</li>
         <li>Functions</li>
