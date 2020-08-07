@@ -150,23 +150,23 @@ const PythonBasics1 = props => {
           <code>
             <b>INPUT</b><br />
             apples = 4<br />
-            <span className="io">print</span>(<span className="string">'They has '</span> + <span className="io">str</span>(apples) + <span className="string">' apples'</span>)<br />
-            <span className="io">print</span>(<span className="string">'They has'</span>, <span className="io">str</span>(apples), <span className="string">'apples'</span>)<br />
-            <span className="io">print</span>(<span className="string">'They has {'{}'} apples'</span>.<span className="io">format</span>(apples))<br /><br />
+            <span className="io">print</span>(<span className="string">'They have '</span> + <span className="io">str</span>(apples) + <span className="string">' apples'</span>)<br />
+            <span className="io">print</span>(<span className="string">'They have'</span>, <span className="io">str</span>(apples), <span className="string">'apples'</span>)<br />
+            <span className="io">print</span>(<span className="string">'They have {'{}'} apples'</span>.<span className="io">format</span>(apples))<br /><br />
 
             <span className="comment">#You can also include multiple variables - one example below</span><br />
             bananas = 8<br />
-            <span className="io">print</span>(<span className="string">'They has {'{}'} apples and {'{}'} bananas'</span>.<span className="io">format</span>(apples, bananas))<br /><br />
+            <span className="io">print</span>(<span className="string">'They have {'{}'} apples and {'{}'} bananas'</span>.<span className="io">format</span>(apples, bananas))<br /><br />
           </code>
         </pre>
 
         <pre>
           <code className="output">
             <b style={{ color: '#000' }}>OUTPUT</b><br />
-            They has 4 apples<br />
-            They has 4 apples<br />
-            They has 4 apples<br />
-            They has 4 apples and 8 bananas
+            They have 4 apples<br />
+            They have 4 apples<br />
+            They have 4 apples<br />
+            They have 4 apples and 8 bananas
           </code>
         </pre>
       </ul>
@@ -206,7 +206,7 @@ const PythonBasics1 = props => {
             <Tab /><span className="io">print</span>(<span className="string">'You are very young!'</span>)<br />
             <span className="bool">elif</span> age &lt;= 18:<br />
             <Tab /><span className="io">print</span>(<span className="string">'You are teenager!'</span>)<br />
-            <span className="bool">else:</span><br />
+            <span className="bool">else</span>:<br />
             <Tab /><span className="io">print</span>(<span className="string">'You are an adult!'</span>)<br />
           </code>
         </pre>
@@ -232,7 +232,7 @@ const PythonBasics1 = props => {
             fav_colour = <span className="io">str</span>(<span className="io">input</span>(<span className="string">'What is your favourite colour? '</span>))<br />
             <span className="bool">if</span> fav_colour == <span className="string">'GREEN'</span>:<br />
             <Tab /><span className="io">print</span>(<span className="string">'Mine too!'</span>)<br />
-            <span className="bool">else</span><br />
+            <span className="bool">else</span>:<br />
             <Tab /><span className="io">print</span>(<span className="string">'I prefer green!'</span>)<br />
             <br />
             <span className="comment">#But the user may not enter their colour in capitals, so we can make their input capitalised so the input isn't case sensitive</span><br />
@@ -241,7 +241,7 @@ const PythonBasics1 = props => {
             fav_colour = <span className="io">str</span>(<span className="io">input</span>(<span className="string">'What is your favourite colour? '</span>)).upper()<br />
             <span className="bool">if</span> fav_colour == <span className="string">'GREEN'</span>:<br />
             <Tab /><span className="io">print</span>(<span className="string">'Mine too!'</span>)<br />
-            <span className="bool">else</span><br />
+            <span className="bool">else</span>:<br />
             <Tab /><span className="io">print</span>(<span className="string">'I prefer green!'</span>)<br />
           </code>
         </pre>
