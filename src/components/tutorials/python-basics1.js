@@ -44,7 +44,7 @@ const PythonBasics1 = props => {
             <span className="io">print</span>(<span className="string">'Hello World'</span>)<br />
             <span className="io">print</span>(5)<br />
             <span className="io">print</span>(<span className="bool">False</span>)<br />
-            <span className="io">print</span>(<span className="string">"James said, 'Hello'"</span>)<br />
+            <span className="io">print</span>(<span className="string">'James said, "Hello"'</span>)<br />
             <span className="comment">#You can print any data type as shown above</span>
           </code>
         </pre>
@@ -101,7 +101,7 @@ const PythonBasics1 = props => {
           <code>
             <b>INPUT</b><br />
             apples = 4<br />
-            bananas = <span className="string">"6"</span><br />
+            bananas = <span className="string">'6'</span><br />
             <span className="io">print</span>(apples + bananas)<br />
           </code>
         </pre>
@@ -122,12 +122,12 @@ const PythonBasics1 = props => {
           <code>
             <b>INPUT</b><br />
             apples = 4<br />
-            bananas = <span className="string">"6"</span><br />
+            bananas = <span className="string">'6'</span><br />
             total1 = apples + <span className="io">int</span>(bananas)<br />
             <span className="io">print</span>(total1)<br /><br />
 
             apples = 4<br />
-            bananas = <span className="string">"6"</span><br />
+            bananas = <span className="string">'6'</span><br />
             total2 = <span className="io">str</span>(apples) + bananas<br />
             <span className="io">print</span>(total2)<br /><br />
             <span className="comment">#You can do the same with 'float()'</span>
