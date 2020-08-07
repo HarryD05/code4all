@@ -4,6 +4,10 @@ import React from 'react';
 //Styling
 import './tutorials.scss';
 
+const Tab = () => {
+  return <span className="tab"></span>
+}
+
 const PythonBasics1 = props => {
   return (
     <div className="tutorial">
@@ -191,6 +195,70 @@ const PythonBasics1 = props => {
       </ul>
 
       <h2>If-else statements</h2>
+      <ul>
+        <li>Currently all of the code examples have run from line 1 to the end (called sequence)</li>
+        <li>But, you code can have multiple routes - this is called selection, an example of this is below</li>
+        <pre>
+          <code>
+            <b>INPUT</b><br />
+            age = <span className="io">int</span>(<span className="io">input</span>(<span className="string">'How old are you? '</span>))<br />
+            <span className="bool">if</span> age &lt;= 12:<br />
+            <Tab /><span className="io">print</span>(<span className="string">'You are very young!'</span>)<br />
+            <span className="bool">elif</span> age &lt;= 18:<br />
+            <Tab /><span className="io">print</span>(<span className="string">'You are teenager!'</span>)<br />
+            <span className="bool">else:</span><br />
+            <Tab /><span className="io">print</span>(<span className="string">'You are an adult!'</span>)<br />
+          </code>
+        </pre>
+
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>OUTPUT</b><br />
+            How old are you? <span style={{ color: '#000' }}>15</span><br />
+            You are a teenager!
+          </code>
+        </pre>
+
+        <li>As seen in the example above, you can use comparison operators to test for conditions (the statement after the if/elif is called a conditional)</li>
+        <li>If the conditional is true, then the code below will be run</li>
+        <li>Elif means only test this condition if the statement above is false</li>
+        <li>Else means if all the conditions above are false, then run the code below</li>
+        <li>You can also use strings in if statements</li>
+
+        <pre>
+          <code>
+            <b>INPUT</b><br />
+            <span className="io">print</span>(<span className="string">'Case sensitive'</span>)<br />
+            fav_colour = <span className="io">str</span>(<span className="io">input</span>(<span className="string">'What is your favourite colour? '</span>))<br />
+            <span className="bool">if</span> fav_colour == <span className="string">'GREEN'</span>:<br />
+            <Tab /><span className="io">print</span>(<span className="string">'Mine too!'</span>)<br />
+            <span className="bool">else</span><br />
+            <Tab /><span className="io">print</span>(<span className="string">'I prefer green!'</span>)<br />
+            <br />
+            <span className="comment">#But the user may not enter their colour in capitals, so we can make their input capitalised so the input isn't case sensitive</span><br />
+            <span className="io">print</span>(<span className="string">'\nCase insensitive'</span>)<br />
+            <span className="comment">#'\n' means new line!</span><br />
+            fav_colour = <span className="io">str</span>(<span className="io">input</span>(<span className="string">'What is your favourite colour? '</span>)).upper()<br />
+            <span className="bool">if</span> fav_colour == <span className="string">'GREEN'</span>:<br />
+            <Tab /><span className="io">print</span>(<span className="string">'Mine too!'</span>)<br />
+            <span className="bool">else</span><br />
+            <Tab /><span className="io">print</span>(<span className="string">'I prefer green!'</span>)<br />
+          </code>
+        </pre>
+
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>OUTPUT</b><br />
+            Case sensitive<br />
+            What is your favourite colour? <span style={{ color: '#000' }}>green</span><br />
+            I prefer green!<br /><br />
+            Case insensitive<br />
+            What is your favourite colour? <span style={{ color: '#000' }}>green</span><br />
+            Mine too!
+          </code>
+        </pre>
+      </ul>
+
       <h2>Arrays/lists</h2>
       <h2>For & while loops</h2>
 
