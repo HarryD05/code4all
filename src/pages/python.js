@@ -1,5 +1,6 @@
 //React dependencies
 import React, { useContext } from 'react';
+import HashLink from './../components/navigation/HashLink';
 
 //Components
 import PythonBG from './../components/sections/python-bg';
@@ -87,11 +88,11 @@ const Python = () => {
             <h1>Overview</h1>
             <p>This site currently provides 3 tutorials</p>
             <ol>
-              <li><b>Python basics</b> - Including variables, inputs, outputs, loops, arrays</li>
+              <li><HashLink name="Python basics" id="python1" /> - Including variables, inputs, outputs, loops, arrays</li>
 
-              <li><b>Python basics plus</b> - Including dictionaries, functions & classes</li>
+              <li><HashLink name="Python basics plus" id="python2" /> - Including dictionaries, functions & classes</li>
 
-              <li><b>TKinter</b> - Used to make GUIs</li>
+              <li><HashLink name="TKinter" id="python3" /> - Used to make GUIs</li>
             </ol>
             <p>I suggest that you write any code example in your IDE of choice so you can see that you get the correct output</p>
           </div>

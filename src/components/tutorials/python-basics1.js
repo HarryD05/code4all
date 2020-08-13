@@ -10,7 +10,7 @@ const Tab = () => {
 
 const PythonBasics1 = props => {
   return (
-    <div className="tutorial">
+    <div className="tutorial" id="python1">
       <h1>Python Basics</h1>
 
       <h2>Comments</h2>
@@ -107,7 +107,7 @@ const PythonBasics1 = props => {
         </pre>
 
         <pre>
-          <code className="error" contenteditable spellcheck="false">
+          <code className="error">
             <b style={{ color: '#000' }}>OUTPUT (an error)</b><br />
             Traceback (most recent call last):<br />
             File "...\casting.py", line 3, in &lt;module&gt;<br />
@@ -152,11 +152,11 @@ const PythonBasics1 = props => {
             apples = 4<br />
             <span className="io">print</span>(<span className="string">'They have '</span> + <span className="io">str</span>(apples) + <span className="string">' apples'</span>)<br />
             <span className="io">print</span>(<span className="string">'They have'</span>, <span className="io">str</span>(apples), <span className="string">'apples'</span>)<br />
-            <span className="io">print</span>(<span className="string">'They have {'{}'} apples'</span>.<span className="io">format</span>(apples))<br /><br />
+            <span className="io">print</span>(<span className="string">'They have {'{}'} apples'</span>.format(apples))<br /><br />
 
             <span className="comment">#You can also include multiple variables - one example below</span><br />
             bananas = 8<br />
-            <span className="io">print</span>(<span className="string">'They have {'{}'} apples and {'{}'} bananas'</span>.<span className="io">format</span>(apples, bananas))<br /><br />
+            <span className="io">print</span>(<span className="string">'They have {'{}'} apples and {'{}'} bananas'</span>.format(apples, bananas))
           </code>
         </pre>
 
@@ -179,7 +179,7 @@ const PythonBasics1 = props => {
             <b>INPUT</b><br />
             name = <span className="io">str</span>(<span className="io">input</span>(<span className="string">'What is your name? '</span>))<br />
             <span className="comment">#I always cast the input to the data type I require e.g if you want a number do int(input())</span><br />
-            <span className="io">print</span>(<span className="string">'Hi, {'{}'}'</span>.<span className="io">format</span>(name))
+            <span className="io">print</span>(<span className="string">'Hi, {'{}'}'</span>.format(name))
           </code>
         </pre>
 
@@ -259,8 +259,154 @@ const PythonBasics1 = props => {
         </pre>
       </ul>
 
-      <h2>Arrays/lists</h2>
-      <h2>For & while loops</h2>
+      <h2>1D Arrays/lists</h2>
+      <ul>
+        <li>You can store multiple data values in a single variable (don't have to be of the same data type)</li>
+        <li>This tutorial only includes 1 dimensional arrays</li>
+        <pre>
+          <code>
+            <b>INPUT</b><br />
+            names = [<span className="string">'Amy'</span>, <span className="string">'Hope'</span>, <span className="string">'Sam'</span>]<br />
+            <span className="comment">#You can output specific items from a list (index starts at 0)</span><br />
+            <span className="io">print</span>(names[1])<br /><br />
+            <span className="comment">#You can reassign the whole array or modify the value of specific items</span><br />
+            names = [<span className="string">'Paul'</span>, <span className="string">'Max'</span>, <span className="string">'Poppy'</span>]<br />
+            names[0] = <span className="string">'Ben'</span><br />
+            <span className="io">print</span>(names)<br /><br />
+            <span className="comment">#You can remove items from an array</span><br />
+            last_name = names.pop() <span className="comment">#removes the final item</span><br />
+            <span className="io">print</span>(last_name)<br />
+            <span className="io">print</span>(names)<br />
+            <span className="comment">#If you put a number inbetween the bracket, that index will be removed e.g. .pop(1) would remove 'Max'</span>
+          </code>
+        </pre>
+
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>OUTPUT</b><br />
+            Hope<br />
+            ['Ben', 'Max', 'Poppy']<br />
+            ['Ben', 'Max']<br />
+            Poppy
+          </code>
+        </pre>
+      </ul>
+
+      <h2>Loops</h2>
+      <li>Part of the programming fundamental - iteration, loops involve repetition of a section of code</li>
+      <li><b>Count-controlled (for) loop</b></li>
+      <pre>
+        <code>
+          <b>INPUT</b><br />
+          <span className="comment">#the number in the brackets after range, sets the amount of times it will loop</span><br />
+          <span className="bool">for </span>counter <span className="bool">in</span> <span className="io">range</span>(10):<br />
+          <Tab /><span className="io">print</span>(counter, end=<span className="string">', '</span>)<br />
+          <span className="io">print</span>(<span className="string">'\n'</span>)<br />
+          <span className="comment">#the end arguement sets the end of the print string (by default it is '/n' or new line)</span><br />
+          <br />
+          <span className="comment">#or you can use all the possible arguements for range(start, end, step)</span><br />
+          <span className="bool">for </span>book <span className="bool">in</span> <span className="io">range</span>(2, 20, 4):<br />
+          <Tab /><span className="io">print</span>(<span className="string">'She has {'{}'} books.'</span>.format(book))<br />
+          <span className="comment">#2 is the start number, 20 is the maximum number, 4 is the "step" (increase each loop)</span><br />
+          <br />
+          <span className="comment">#finally, a for loop can iterate through a list</span><br />
+          <span className="bool">for </span>name <span className="bool">in</span> [<span className="string">'Adam'</span>, <span className="string">'Sinead'</span>, <span className="string">'Jess'</span>]:<br />
+          <Tab /><span className="io">print</span>(<span className="string">'Hi, {'{}'}'</span>.format(name))
+        </code>
+      </pre>
+
+      <pre>
+        <code className="output">
+          <b style={{ color: '#000' }}>OUTPUT</b><br />
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9,<br />
+          She has 2 books.<br />
+          She has 6 books.<br />
+          She has 10 books.<br />
+          She has 14 books.<br />
+          She has 18 books.<br />
+          Hi, Adam<br />
+          Hi, Sinead<br />
+          Hi, Jess<br />
+        </code>
+      </pre>
+
+      <li><b>Condition-controlled (while) loop</b></li>
+      <pre>
+        <code>
+          <b>INPUT</b><br />
+          counter = 3<br />
+          <span className="bool">while</span> counter &lt;= 6:<br />
+          <Tab /><span className="io">print</span>(counter)<br />
+          <Tab />counter += 1<br />
+          <br />
+          total = 0<br />
+          count = -1<br />
+          score = 0<br />
+          <span className="bool">while</span> score != '':<br />
+          <Tab />count += 1<br />
+          <Tab />total += <span className="io">int</span>(score)<br />
+          <Tab />score = <span className="io">input</span>(<span className="string">'(Press enter to quit) Test score: '</span>)<br />
+          <br />
+          <span className="bool">if</span> count &gt; 0:<br />
+          <Tab /><span className="io">print</span>(<span className="string">'Average test score: {'{}'}</span>'.format(total / count))<br />
+        </code>
+      </pre>
+
+      <pre>
+        <code className="output">
+          <b style={{ color: '#000' }}>OUTPUT</b><br />
+          3<br />
+          4<br />
+          5<br />
+          6<br />
+          (Press enter to quit) Test score: 15<br />
+          (Press enter to quit) Test score: 30<br />
+          (Press enter to quit) Test score: 18<br />
+          (Press enter to quit) Test score: 22<br />
+          (Press enter to quit) Test score:<br />
+          Average test score: 21.25<br />
+        </code>
+      </pre>
+
+      <h2>Basic Python Project Ideas</h2>
+      <ul>
+        <li><b>99 Bottles of Beer</b> - variables, print formatting, loops</li>
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>Example output</b><br />
+            99 bottles of beer on the wall, 99 bottles of beer.<br />
+            Take one down and pass it around, 98 bottles of beer on the wall.<br />
+            <br />
+            98 bottles of beer on the wall, 98 bottles of beer.<br />
+            Take one down and pass it around, 97 bottles of beer on the wall.<br />
+            ...<br />
+            1 bottle of beer on the wall, 1 bottle of beer.<br />
+            Take one down and pass it around, no more bottles of beer on the wall.<br />
+          </code>
+        </pre>
+
+        <li><b>Basic calculator</b> - variables, inputs</li>
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>Example output</b><br />
+            Select an operator (+, -, *, /): <span style={{ color: '#000' }}>-</span><br />
+            First number: <span style={{ color: '#000' }}>12</span><br />
+            Second number: <span style={{ color: '#000' }}>3</span><br />
+            Result: 12 - 3 = 9
+          </code>
+        </pre>
+
+        <li><b>Mad lib</b> - variables, inputs, print formatting</li>
+        <pre>
+          <code className="output">
+            <b style={{ color: '#000' }}>Example output (this is a very basic example)</b><br />
+            Input a name: <span style={{ color: '#000' }}>Sarah</span><br />
+            Input a number: <span style={{ color: '#000' }}>6</span><br />
+            Input an adjective: <span style={{ color: '#000' }}>massive</span><br />
+            Sarah has 6 massive houses!
+          </code>
+        </pre>
+      </ul>
 
     </div >
   )
