@@ -4,6 +4,12 @@ import React, { useContext } from 'react';
 //Components
 import WebdevBG from './../components/sections/webdev-bg';
 import TutorialBG from './../components/sections/tutorials-bg';
+import HashLink from './../components/navigation/HashLink';
+
+//Tutorials
+import WebBasics from './../components/tutorials/web-basics';
+import Graphics from './../components/tutorials/p5-basics';
+import FullStack from './../components/tutorials/full-stack';
 
 //Context
 import { LocationContext } from './../context/LocationContext';
@@ -107,14 +113,20 @@ const Webdev = () => {
             <h1>Overview</h1>
             <p>This site currently provides 3 tutorials</p>
             <ol>
-              <li><b>Static websites</b> - Including basic html, css & js</li>
+              <li><HashLink name="Basic websites" id="webdev1" /> - Including basic html, css & js</li>
 
-              <li><b>Graphics</b> - Use of the P5.js library</li>
+              <li><HashLink name="Graphics with p5.js" id="webdev2" /> - Use of the P5.js library</li>
 
-              <li><b>Full-stack development basics</b> - Including react.js (using hooks!) & then adding a backend with express & mongoose</li>
+              <li><HashLink name="Basic full stack web development (with MERN)" id="webdev3" /> - Including react.js (using hooks!) & then adding a backend with express & mongoose</li>
             </ol>
           </div>
         </div >
+
+        <hr />
+
+        <WebBasics />
+        <Graphics />
+        <FullStack />
       </div>
     </div>
   );
