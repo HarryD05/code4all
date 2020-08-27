@@ -24,8 +24,9 @@ const Navbar = () => {
   const renderPython = () => {
     return (
       <div className="links">
-        <HashLink id="desc" name="Desc." />
-        <HashLink id="requirements" name="Req." />
+        <HashLink id="desc" name="Description" />
+        <HashLink id="resources" name="Resources" />
+        <HashLink id="requirements" name="Requirements" />
         <HashLink id="tutorials" name="Tutorials" />
       </div>
     )

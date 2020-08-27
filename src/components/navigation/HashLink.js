@@ -8,6 +8,7 @@ const HashLink = props => {
       to={"#" + props.id}
       activeClassName={null}
       smooth={true}
+      className="hash-link"
     >
       {props.name}
     </Link>

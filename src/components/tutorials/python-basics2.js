@@ -15,6 +15,9 @@ const PythonBasics2 = props => {
         <li>Dictionaries</li>
         <li>Functions</li>
         <li>Classes</li>
+        <li>Error handling</li>
+        <li>Basic filehandling</li>
+        <li>Basic regular expressions</li>
         <li>Python Basics Plus Project Ideas</li>
       </ul>
     </div>

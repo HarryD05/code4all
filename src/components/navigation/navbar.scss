@@ -50,6 +50,10 @@ nav {
         text-decoration: none;
         color: white;
         margin-left: 0.5rem;
+        
+        &:hover {
+          color: var(--fg);
+        }
       }
     }
   }

@@ -20,6 +20,7 @@ import './pages.scss';
 //Assets
 import { ReactComponent as PythonLogo } from './../assets/svgs/python-file.svg';
 import { ReactComponent as Requirements } from './../assets/svgs/requirements.svg';
+import { ReactComponent as Others } from './../assets/svgs/search.svg';
 import { ReactComponent as Tutorial } from './../assets/svgs/tutorial.svg';
 
 const Python = () => {
@@ -49,8 +50,37 @@ const Python = () => {
 
       <hr />
 
-      <div id="requirements">
+      <div id="resources">
         <div className="divided-box-right">
+          <div className="requirements">
+            <h1>Other resources available</h1><span>(that you may prefer!)</span>
+
+            <h2>Websites</h2>
+            <ul>
+              <li><a href="https://www.w3schools.com/python/python_intro.asp" target="_blank" rel="noopener noreferrer">W3Schools</a> - an extensive python tutorial including - basics, file handling, Numpy, machine learning, handling databases</li>
+              <li><a href="https://www.codecademy.com/learn/learn-python-3" target="_blank" rel="noopener noreferrer">Codeacademy</a> - this specific tutorial teaches you the basics, but there are many other courses to learn specific parts of python on this site</li>
+              <li><a href="https://www.learnpython.org/" target="_blank" rel="noopener noreferrer">LearnPython.org</a> - includes basics, data science & advanced topics e.g. regular expressions</li>
+            </ul>
+
+            <h2>Youtube tutorials</h2>
+            <ul>
+              <li><a href="https://youtu.be/rfscVS0vtbw" target="_blank" rel="noopener noreferrer">Learn Python - Full Course for Beginners (FreeCodeCamps)</a> - a 4.5 hour youtube video, includes all the python basics included in this website & more</li>
+              <li><a href="https://youtu.be/_uQrJ0TkZlc" target="_blank" rel="noopener noreferrer">Python for beginners (Programming with Mosh)</a> - a 6 hour youtube video, includes many example projects with machine learning & web development included</li>
+              <li><a href="https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6" target="_blank" rel="noopener noreferrer">Python for beginners (Microsoft)</a> - a 44 part playlist, containing many projects & advice for what to do next</li>
+            </ul>
+
+          </div>
+
+          <Others alt="www" />
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="requirements">
+        <div className="divided-box-left">
+          <Requirements alt="clipboard with pen" />
+
           <div className="requirements">
             <h1>Requirements</h1>
             <p>There are 2 options: </p>
@@ -74,7 +104,7 @@ const Python = () => {
             </ul>
           </div>
 
-          <Requirements alt="clipboard with pen" />
+
         </div>
       </div>
 
@@ -90,7 +120,7 @@ const Python = () => {
             <ol>
               <li><HashLink name="Python basics" id="python1" /> - Including variables, inputs, outputs, loops, arrays</li>
 
-              <li><HashLink name="Python basics plus" id="python2" /> - Including dictionaries, functions & classes</li>
+              <li><HashLink name="Python basics plus" id="python2" /> - Including dictionaries, functions, classes, error handling, regex & file handling</li>
 
               <li><HashLink name="TKinter" id="python3" /> - Used to make GUIs</li>
             </ol>
