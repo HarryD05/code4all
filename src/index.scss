@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  word-break: break-word !important;
 }
 
 html {
@@ -21,6 +22,11 @@ body {
   font-family: 'Manjari', sans-serif;
   width: 100%;
   
+}
+
+h1 {
+  width: max-content;
+  max-width: 100%;
 }
 
 b, em, u, div {

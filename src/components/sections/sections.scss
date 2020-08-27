@@ -1,10 +1,16 @@
 .bg-img {
-  background-size: cover !important;
-  background-attachment: fixed !important;
-  background-position: center center !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  display: grid;
-  place-items: center;
+  @media only screen and (max-device-width: 768px) {
+    background-attachment: scroll;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     color: #ffffff;
@@ -14,35 +20,35 @@
 
 .python-bg {
   .bg-img {
-    background: url('./../../assets/images/black-laptop.jpg') no-repeat center;
+    background-image: url('./../../assets/images/black-laptop.jpg');
     height: 100vh;
   }
 }
 
 .tutorials-bg {
   .bg-img {
-    background: url('./../../assets/images/marble-pad.jpg') no-repeat center;
+    background-image: url('./../../assets/images/marble-pad.jpg');
     height: 300px;
   }
 }
 
 .webdev-bg {
   .bg-img {
-    background: url('./../../assets/images/tea-laptop.jpg') no-repeat center;
+    background-image: url('./../../assets/images/tea-laptop.jpg');
     height: 100vh;
   }
 }
 
 .main {
   .bg-img {
-    background: url('./../../assets/images/phone-laptop.jpg') no-repeat center;
+    background-image: url('./../../assets/images/phone-laptop.jpg');
     height: 100vh;
   }
 }
 
 .why {
   .bg-img {
-    background: url('./../../assets/images/dark-laptop.jpg') no-repeat center;
+    background-image: url('./../../assets/images/dark-laptop.jpg');
     height: 300px;
   }
 
@@ -60,7 +66,7 @@
 
 .about-us {
   .bg-img {
-    background: url('./../../assets/images/stats-laptop.jpg') no-repeat center;
+    background-image: url('./../../assets/images/stats-laptop.jpg');
     height: 300px;
   }
 }

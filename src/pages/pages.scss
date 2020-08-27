@@ -1,5 +1,5 @@
 .python, .webdev {
-  .divided-box {
+  .divided-box-left, .divided-box-right {
     padding: 2rem;
     text-align: left;
     display: grid;
@@ -12,9 +12,11 @@
     }
 
     .description {
+      max-width: 100%;
+
       h1 {
         border-bottom: 4px solid black;
-        width: max-content;
+        max-width: calc(100% - 2rem) !important;
         margin-bottom: 1rem;
       }
 
@@ -30,6 +32,8 @@
 
     .requirements {
       @extend .description;
+
+      max-width: calc(100% - 4rem);
 
       ul {
         li {
@@ -90,15 +94,13 @@
     }
   }
 
-  .divided-box-left {
-    @extend .divided-box;
+  
+}
 
-    grid-template-columns: 1fr 2fr;
-  }
+.divided-box-left {
+  grid-template-columns: 1fr 2fr;
+}
 
-  .divided-box-right {
-    @extend .divided-box;
-
-    grid-template-columns: 2fr 1fr;
-  }
+.divided-box-right {
+  grid-template-columns: 2fr 1fr;
 }
