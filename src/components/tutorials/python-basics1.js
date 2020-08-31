@@ -56,7 +56,7 @@ const PythonBasics1 = props => {
             5<br />
             False<br />
             James said, 'Hello'
-        </code>
+          </code>
         </pre>
       </ul>
 
